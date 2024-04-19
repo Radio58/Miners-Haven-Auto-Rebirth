@@ -4,6 +4,7 @@ This is a script built to automate the rebirth mechanic in Miners Haven.
 
 ## Requirements
 Python 3.12
+
 Pillow needs to be updated 10.3.0 after installing PyAutoGui
 
 ## How to use:
