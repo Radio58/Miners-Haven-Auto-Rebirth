@@ -12,6 +12,9 @@ Currently there is no hotkey to kill the script, so it will have to be done manu
 
 Simply run the script, after 3 seconds it will start. It runs a check every 5 seconds and rebirths if possible.
 
+It needs fullscreen (F11) to work properly.
+
+
 Libraries used:
 - PyAutoGui
 - Pillow
