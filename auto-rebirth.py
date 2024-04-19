@@ -69,7 +69,7 @@ def tryRebirth():
 
     # Check if rebirth indicator is fully green, returns if not
     try:
-        indicator = gui.locateCenterOnScreen('images/indicator.png')
+        indicator = gui.locateOnScreen('images/indicator.png')
     except gui.ImageNotFoundException:
         print('cannot rebirth')
         pressB()
@@ -81,7 +81,7 @@ def tryRebirth():
 
     # Determines whether the yes button is on the right or left and rebirths
     try:
-        confirm = gui.locateCenterOnScreen('images/yes-right.png')
+        confirm = gui.locateOnScreen('images/yes-right.png')
         dpadRight()
         pressA()
         loadLayout()
@@ -90,7 +90,7 @@ def tryRebirth():
         pass
     
     try:
-        confirm = gui.locateCenterOnScreen('images/yes-left.png')
+        confirm = gui.locateOnScreen('images/yes-left.png')
         pressA()
         loadLayout()
         return
